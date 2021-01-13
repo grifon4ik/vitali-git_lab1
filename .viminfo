@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1610563943,,"wq!"
 :q!
 |2,0,1610563456,,"q!"
-:wq!
-|2,0,1610563431,,"wq!"
 :wq
 |2,0,1585566390,,"wq"
 :Wq
@@ -33,14 +33,24 @@
 # Registers:
 
 # File marks:
-'0  5  0  ~/test3.txt
-|4,48,5,0,1610563456,"~/test3.txt"
+'0  11  27  ~/test3.txt
+|4,48,11,27,1610563943,"~/test3.txt"
 '1  5  0  ~/test3.txt
-|4,49,5,0,1610563431,"~/test3.txt"
-'2  3  0  ~/.ssh/authorized_keys
-|4,50,3,0,1585566390,"~/.ssh/authorized_keys"
+|4,49,5,0,1610563456,"~/test3.txt"
+'2  5  0  ~/test3.txt
+|4,50,5,0,1610563456,"~/test3.txt"
+'3  5  0  ~/test3.txt
+|4,51,5,0,1610563431,"~/test3.txt"
+'4  5  0  ~/test3.txt
+|4,52,5,0,1610563431,"~/test3.txt"
+'5  3  0  ~/.ssh/authorized_keys
+|4,53,3,0,1585566390,"~/.ssh/authorized_keys"
 
 # Jumplist (newest first):
+-'  11  27  ~/test3.txt
+|4,39,11,27,1610563943,"~/test3.txt"
+-'  5  0  ~/test3.txt
+|4,39,5,0,1610563934,"~/test3.txt"
 -'  5  0  ~/test3.txt
 |4,39,5,0,1610563456,"~/test3.txt"
 -'  5  0  ~/test3.txt
@@ -49,6 +59,8 @@
 |4,39,1,0,1610563417,"~/test3.txt"
 -'  1  0  ~/test3.txt
 |4,39,1,0,1610563417,"~/test3.txt"
+-'  1  0  ~/test3.txt
+|4,39,1,0,1610563417,"~/test3.txt"
 -'  3  0  ~/.ssh/authorized_keys
 |4,39,3,0,1585566390,"~/.ssh/authorized_keys"
 -'  3  0  ~/.ssh/authorized_keys
@@ -57,6 +69,22 @@
 |4,39,3,0,1585566390,"~/.ssh/authorized_keys"
 -'  3  0  ~/.ssh/authorized_keys
 |4,39,3,0,1585566390,"~/.ssh/authorized_keys"
+-'  3  0  ~/.ssh/authorized_keys
+|4,39,3,0,1585566390,"~/.ssh/authorized_keys"
+-'  3  0  ~/.ssh/authorized_keys
+|4,39,3,0,1585566390,"~/.ssh/authorized_keys"
+-'  3  0  ~/.ssh/authorized_keys
+|4,39,3,0,1585566390,"~/.ssh/authorized_keys"
+-'  3  0  ~/.ssh/authorized_keys
+|4,39,3,0,1585566390,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1585566373,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1585566373,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1585566373,"~/.ssh/authorized_keys"
+-'  1  0  ~/.ssh/authorized_keys
+|4,39,1,0,1585566373,"~/.ssh/authorized_keys"
 -'  1  0  ~/.ssh/authorized_keys
 |4,39,1,0,1585566373,"~/.ssh/authorized_keys"
 -'  1  0  ~/.ssh/authorized_keys
@@ -69,11 +97,12 @@
 # History of marks within files (newest to oldest):
 
 > ~/test3.txt
-	*	1610563455	0
-	"	5	0
-	^	5	0
-	.	4	29
+	*	1610563942	0
+	"	11	27
+	^	11	28
+	.	11	27
 	+	4	29
+	+	11	27
 
 > ~/.ssh/authorized_keys
 	*	1585566388	0
